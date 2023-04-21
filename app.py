@@ -2,7 +2,7 @@ from flask import Flask,render_template,request
 import requests
 
 app =Flask(__name__)
-key ="63ff97f2ee48d573bf57a5bf"
+key ="YOUR-API-KEY"
 
 @app.route('/',methods=["POST","GET"])
 def index():
